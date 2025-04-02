@@ -17,4 +17,10 @@ int main(){
 
     std::cout << "Qual letra vc quer encontrar?";
     std::cin >> letra;
+
+    if (BuscarLetra(vetor, tamanho, letra)){
+        std::cout << "A letra " << letra << " foi encontrada" <<std::endl;
+    } else {
+        std::cout << "A letra " << letra << " não foi encontrada" <<std::endl;
+    }
 }
