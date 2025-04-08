@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 struct Book{
     string name;
@@ -16,5 +19,6 @@ struct Book{
 int main(){
 
     Book b1("A culpa é das estrelas", 300, "Fulano");
-    std::cout << b1.name;
+    std::cout << "O nome é " << b1.name <<std::endl ;
+    std::cout << "As páginas são " << b1.pages << std::endl;
 }
