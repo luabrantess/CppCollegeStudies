@@ -20,8 +20,8 @@ This repository is dedicated to college studies, with a focus on C++ programming
    ```
 3. Compile and run the C++ files:
    ```sh
-   g++ filename.cpp -o output
-   ./output
+   clang++ -o program my_file.cpp
+   ./program
    ```
 
 ## Contributions
