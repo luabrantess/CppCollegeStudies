@@ -32,5 +32,11 @@ int main(){
     p1.x = 1;
     p1.y = 2;
 
+    Ponto* p2 = new Ponto;
+    p2->x = 5;
+    p2->y = 7;
+
     std::cout << "P1 é " << p1.x << " e " << p1.y << std::endl;
+    std::cout << "P2 é " << p2->x << " e " << p2->y << std::endl;
+
 }
